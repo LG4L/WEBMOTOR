@@ -1,4 +1,5 @@
-#include "CefWindowManager.h"
+#include "include/CefWindowManager.h"
+#include <include/cef_client.h>
 
 void CefWindowManager::Initialize(int argc, char* argv[]) {
     CefEnableHighDPISupport();
